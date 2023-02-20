@@ -48,4 +48,16 @@
     <Compile Include="Euclidian.cs" />
     <Compile Include="Manhatten.cs" />
     <Compile Include="Pearson.cs" />
-    <Compile In
+    <Compile Include="Query.cs" />
+    <Compile Include="User.cs" />
+    <Compile Include="Dictionary.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Data\u.data" />
+    <None Include="Data\userItem.data" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
