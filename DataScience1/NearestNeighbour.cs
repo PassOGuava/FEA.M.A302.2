@@ -36,4 +36,23 @@ namespace DataScience1
                             {
                                 nearneighbour.RemoveAt(2);
                                 nearneighbour.Add(sim);
-   
+                            }
+                        }
+
+                    }
+                    
+
+                }
+
+            }
+            nearneighbour.Sort();
+            nearneighbour.Reverse();
+            foreach (var item in nearneighbour)
+            {
+                Console.WriteLine(item);
+            }
+
+
+        }
+    }
+}
